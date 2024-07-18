@@ -2,7 +2,8 @@ Using the information from the createstack.json file, create a CloudFormation st
 ![Screenshot 2024-07-18 at 3 24 32 PM](https://github.com/user-attachments/assets/789f4b1a-0864-4f34-a84f-6588ed758428)
 After creating the stack, click edit in Application composer and add this code block
 
-```{
+```
+{
     "Resources": {
         "catpics": {
             "Type": "AWS::S3::Bucket"
@@ -21,7 +22,8 @@ check the resources under the cfnlab stack, as you can see it created an s3 buck
 
 Using the following code block, update the CloudFormation stack.
 
-```{
+```
+{
     "Resources": {
         "catpics": {
             "Type": "AWS::S3::Bucket"
@@ -44,7 +46,8 @@ When you check the resource that's created, the dogpics in added
 
 Update the CloudFormation Stack to Rename the S3 Bucket
 Follow the last steps and use this code block
-```{
+```
+{
     "Resources": {
         "catpics": {
             "Type": "AWS::S3::Bucket",
